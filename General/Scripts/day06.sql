@@ -1,0 +1,188 @@
+CREATE TABLE WEB_PHONE(
+   PHONE_SERIAL_NUMBER VARCHAR2(1000),
+   PHONE_COLOR VARCHAR2(1000),
+   PHONE_SIZE NUMBER,
+   PHONE_PRICE  NUMBER,
+   PHONE_SALE  NUMBER,
+   PHONE_PRODUCTION_DATE  DATE,
+   CONSTRAINT PK_PHONE PRIMARY KEY(PHONE_SERIAL_NUMBER)
+);
+
+CREATE TABLE WEB_CASE(
+   CASE_SERIAL_NUMBER VARCHAR2(1000),
+   CASE_COLOR VARCHAR2(1000),
+   CASE_PRICE NUMBER,
+   PHONE_SERIAL_NUMBER VARCHAR2(1000),
+   CONSTRAINT PK_CASE PRIMARY KEY(CASE_SERIAL_NUMBER),
+   CONSTRAINT FK_CASE FOREIGN KEY(PHONE_SERIAL_NUMBER)
+   REFERENCES WEB_PHONE(PHONE_SERIAL_NUMBER)
+);
+
+-- FK가 NULL값이면 자식 테이블의 값을 먼저 넣을 수 있지만 나중에 반드시 수정이 필요하다
+-- 그렇기 때문에 부모 테이블의 값을 먼저 넣는다
+INSERT INTO WEB_CASE
+VALUES ('S23-002', 'WHITE', 10000, NULL);
+
+SELECT * FROM WEB_CASE;
+SELECT * FROM WEB_PHONE;
+
+-- WEB_PHONE 테이블의 데이터 추가
+INSERT INTO WEB_PHONE
+VALUES('S23-001', 'WHITE', 1, 100, 0, '2023-01-30');
+-- DATE타입의 컬럼에 문자 타입의 값을 'YYYY-MM-DD' 형태로 넣으면
+-- 자동으로 DATE 타입으로 변환되서 들어간다
+
+INSERT INTO WEB_PHONE
+VALUES('S23-002', 'BLACK', 1, 120, 10, SYSDATE - 10);
+-- 현재 날짜를 기준으로 10일 전
+
+INSERT INTO WEB_PHONE
+VALUES('S23-003', 'BLACK', 1, 130, 20, TO_DATE('2000-10-21'));
+-- TO_DATE() 함수를 이용하여 문자열을 직접 DATE 타입으로 바꿀 수 있다
+
+-- 자식테이블에도 값 추가
+--INSERT INTO WEB_CASE
+--VALUES('A', 'WHITE', 5, 'S22-000');
+-- 오류 : 부모에 없는 값을 참조함
+
+INSERT INTO WEB_CASE
+VALUES('A', 'BLACK', 2, 'S23-001');
+
+INSERT INTO WEB_CASE
+VALUES('B', 'WHITE', 2, 'S23-003');
+
+
+-- 부모테이블의 값을 수정
+UPDATE WEB_PHONE
+SET PHONE_SERIAL_NUMBER = 'S23-004'
+WHERE PHONE_SERIAL_NUMBER = 'S23-001'; -- 오류
+
+-- 부모테이블의 값을 변경시 자식 테이블에서 참조중인 값을 변경하려고 하면 오류 발생
+-- 자식 테이블을 먼저 수정하여 해당 값을 참조하지 않도록 수정해야한다
+-- 1. 자식 테이블에서 참조중인 값을 다른 값으로 변경한다
+-- 2. 자식 테이블에서 참조중인 값을 NULL로 변경한다
+
+--1. 참조중인 값을 NULL로 변경후 수정(급하지않다면 비추천)
+UPDATE WEB_CASE
+SET PHONE_SERIAL_NUMBER = NULL
+WHERE CASE_SERIAL_NUMBER = 'A';
+
+--2. 참조중인 값을 다른 값으로 변경 후 수정
+-- 자식의 FK를 변경할 때에는 부모에 존재하는 값으로 변경해야한다
+UPDATE WEB_CASE
+SET PHONE_SERIAL_NUMBER = 'S23-002'
+WHERE CASE_SERIAL_NUMBER = 'B';
+
+
+--3. 부모에 없는 값으로 변경하려면 부모에 먼저 INSERT를 하고 자식 FK를 수정한다
+INSERT INTO WEB_PHONE
+VALUES('S22-000', 'BLUE', 2, 80, 10, SYSDATE);
+
+UPDATE WEB_CASE
+SET PHONE_SERIAL_NUMBER = 'S22-000'
+WHERE CASE_SERIAL_NUMBER = 'B';
+
+-- 부모테이블에서 데이터 삭제하기
+DELETE FROM WEB_PHONE
+WHERE PHONE_SERIAL_NUMBER = 'S22-000';
+-- 자식 테이블에서 참조중인 값이기 때문에 삭제 불가능
+
+-- 부모 테이블의 데이터를 삭제하려면 자식 테이블의 참조중인 값들을 먼저 처리해야한다
+-- 1. 삭제한다
+-- 2. 수정한다
+
+-- 1.
+DELETE FROM WEB_CASE
+WHERE PHONE_SERIAL_NUMBER = 'S22-000';
+
+-- 2.
+UPDATE WEB_CASE
+SET PHONE_SERIAL_NUMBER = 'S23-001'
+WHERE CASE_SERIAL_NUMBER = 'A';
+
+UPDATE WEB_CASE
+SET PHONE_SERIAL_NUMBER = 'S23-003'
+WHERE CASE_SERIAL_NUMBER = 'A';
+
+
+SELECT * FROM WEB_CASE;
+SELECT * FROM WEB_PHONE;
+
+-- 자식 테이블에서 참조하고 있는 데이터를 다 뺐기 때문에
+-- 삭제가 가능해진다
+DELETE FROM WEB_PHONE
+WHERE PHONE_SERIAL_NUMBER = 'S23-001';
+
+
+INSERT INTO WEB_MEMBER
+VALUES(SEQ_MEMBER.NEXTVAL , '홍길동', 22, '010-1234-5678', '서울시');
+
+INSERT INTO WEB_MEMBER
+VALUES(SEQ_MEMBER.NEXTVAL, '신짱구', 20, '010-1231-2323', '경기도');
+
+INSERT INTO WEB_MEMBER
+VALUES(SEQ_MEMBER.NEXTVAL, '유리', 5, '010-5555-6666', '수원시');
+
+CREATE SEQUENCE SEQ_BOOK;
+
+INSERT INTO WEB_BOOK 
+VALUES(SEQ_BOOK.NEXTVAL, '셜록', '추리', NULL);
+
+INSERT INTO WEB_BOOK 
+VALUES(3, 'DBMS 정복', 'IT', 23);
+
+INSERT INTO WEB_BOOK 
+VALUES(4, '경영자들', '경영', 24);
+
+
+
+SELECT * FROM WEB_MEMBER;
+SELECT * FROM WEB_BOOK;
+
+
+
+
+
+
+--DROP TABLE WEB_MEMBER;
+
+
+
+
+-- 3. 책 대여한 회원 번호 수정
+-- 부모 테이블에서 수정
+-- MEMBER_NUMBER가 2로, MEMBER_NUMBER 4인 값으로 변경 =>
+
+-- MEMBER_NUMBER 2인 값을 자식 테이블에서 참조하고 있으므로, NULL로 바꾸거나 값을 삭제하고
+-- 부모테이블의 MEMBER_NUMBER 값을 변경한다
+UPDATE WEB_BOOK
+SET MEMBER_ID = 22
+WHERE BOOK_ID = 1;
+
+
+
+SELECT * FROM WEB_BOOK;
+SELECT BOOK_ID, BOOK_NAME, BOOK_GENRE, NVL2(MEMBER_ID, '대여중', '대여가능') 
+FROM WEB_BOOK;
+SELECT * FROM WEB_MEMBER;
+
+-- 부모테이블의 MEMBER_NUMBER가 1인 값을 MEMBER_NUMBER 5인값으로 수정
+-- 자식테이블에서 참조하고 있는 데이터를 삭제, NULL, 다른 참조값으로 먼저 수정해야한다
+-- 그 이후에 부모 테이블의 데이터를 수정한다
+
+UPDATE WEB_BOOK
+SET MEMBER_ID = NULL
+WHERE BOOK_ID = 3;
+
+UPDATE WEB_MEMBER
+SET MEMBER_NUMBER = 5
+WHERE MEMBER_NUMBER = 1;
+
+
+
+
+
+
+
+
+

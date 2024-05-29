@@ -1,0 +1,990 @@
+2024-01-03 19:10:57.743 - DBeaver 23.3.0.202312122044 is starting
+2024-01-03 19:10:57.744 - OS: Windows 10 10.0 (amd64)
+2024-01-03 19:10:57.744 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-01-03 19:10:57.744 - Install path: 'D:\web_1900_d\dbms\resource\dbeaver'
+2024-01-03 19:10:57.745 - Instance path: 'file:/D:/web_1900_d/dbms/workspace/'
+2024-01-03 19:10:57.745 - Memory available 64Mb/1024Mb
+2024-01-03 19:10:57.759 - Create display
+2024-01-03 19:10:57.931 - Initializing DBeaver 23.3.0
+2024-01-03 19:10:57.932 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.3.0.202312122044
+2024-01-03 19:10:57.932 - Initialize desktop platform...
+2024-01-03 19:10:58.139 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.10.100.v20230717-1727]
+> Start Core Resource Management [org.eclipse.core.resources 3.19.100.v20230814-1312]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.100.v20230726-0617]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.120.202312122044]
+2024-01-03 19:10:58.583 - Initialize base platform...
+2024-01-03 19:10:58.602 - Platform initialized (670ms)
+2024-01-03 19:10:58.652 - Starting instance server at http://localhost:53222
+2024-01-03 19:10:58.680 - Run workbench
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.135.202312122044]
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.100.v20230727-0604]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.100.v20230708-0809]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.100.v20230630-1554]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.100.v20230727-0604]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.100.v20230630-1554]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.100.v20230630-1554]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.35.0.v20230801-1141]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.100.v20230727-0604]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.100.v20230727-0604]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.100.v20230801-1255]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.0.v20230429-1914]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.100.v20230727-0604]
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
+2024-01-03 19:11:05.991 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.110.202312122044]
+2024-01-03 19:11:06.152 - Total database drivers: 108 (108)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.100.v20230726-0617]
+2024-01-03 19:11:06.312 - Create actions
+2024-01-03 19:11:06.318 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-01-03 19:11:06.318 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-01-03 19:11:06.319 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-01-03 19:11:06.738 - Initialize workbench window
+2024-01-03 19:11:06.742 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.0.v20230821-1342]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.100.v20230821-0745]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.120.202312122044]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.120.202312122044]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.96.202312122044]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.100.v20230726-0617]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.100.v20230726-0617]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.100.v20230630-1232]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.157.202312122044]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.126.202312122044]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.0.202308311129]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.15.0.202308311129]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.80.202312122044]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.80.202312122044]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.13.202312122044]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.205.202312122044]
+> Start 콘솔 [org.eclipse.ui.console 3.13.0.v20230726-0617]
+Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+> Start 디버그 핵심 [org.eclipse.debug.core 3.21.100.v20230731-1425]
+2024-01-03 19:11:09.501 - Connect with 'localhost' (oracle_thin-18c632e1575-6c34538d81af412f)
+2024-01-03 19:11:09.534 - Execution context opened (localhost; Main; 0)
+2024-01-03 19:11:09.883 - Execution context opened (localhost; Metadata; 1)
+2024-01-03 19:11:09.940 - Connected (oracle_thin-18c632e1575-6c34538d81af412f, Oracle JDBC driver [11.2.0.2.0])
+2024-01-03 19:11:10.078 - Execution context opened (localhost; SQLEditor <day11.sql>; 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.98.202312122044]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.107.202312122044]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.98.202312122044]
+2024-01-03 19:11:11.482 - Open [https://dbeaver.io/product/version.xml]
+2024-01-03 19:11:42.929 - Execution context opened (localhost; SQLEditor <Script.sql>; 3)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.15.202312122044]
+> Start DBeaver SQL Server Model [org.jkiss.dbeaver.ext.mssql 1.0.214.202312122044]
+> Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.169.202312122044]
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.206.202312122044]
+2024-01-03 19:13:43.953 - SQL Error [923] [42000]: ORA-00923: FROM keyword not found where expected
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [923] [42000]: ORA-00923: FROM keyword not found where expected
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:607)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:510)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:517)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:971)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4135)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5150)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00923: FROM keyword not found where expected
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-01-03 19:13:44.097 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-01-03 19:13:44.097 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-01-03 19:13:44.097 - Can't obtain procedure metadata nor jdbc metadata
+2024-01-03 19:26:06.496 - SQL Error [900] [42000]: ORA-00900: invalid SQL statement
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [900] [42000]: ORA-00900: invalid SQL statement
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:607)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:510)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:517)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:971)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4135)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5150)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00900: invalid SQL statement
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:999)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1315)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-01-03 19:26:06.642 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-01-03 19:26:06.642 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-01-03 19:26:06.642 - Can't obtain procedure metadata nor jdbc metadata
+2024-01-03 19:44:21.957 - SQL Error [904] [42000]: ORA-00904: "조정급여": invalid identifier
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [904] [42000]: ORA-00904: "조정급여": invalid identifier
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:607)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:510)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:517)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:971)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4135)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5150)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "조정급여": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2024-01-03 19:44:22.099 - Error binding callable statement parameters from metadata: 지원되지 않는 기능입니다
+2024-01-03 19:44:22.099 - Error obtaining output parameters from metadata: 지원되지 않는 기능입니다
+2024-01-03 19:44:22.099 - Can't obtain procedure metadata nor jdbc metadata
+2024-01-03 19:44:22.101 - Error positioning on query error
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:246)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:863)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase.visualizeQueryErrors(SQLEditorBase.java:982)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.processQueryResult(SQLEditor.java:4796)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$SQLEditorQueryListener.lambda$4(SQLEditor.java:4770)
+	at org.jkiss.dbeaver.ui.UIUtils$9.runInUIThread(UIUtils.java:1786)
+	at org.jkiss.dbeaver.ui.AbstractUIJob.runInUIThread(AbstractUIJob.java:41)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:280)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-01-03 20:06:30.597 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:06:30.602 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:06:30.605 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:06:37.578 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:06:37.581 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:06:37.584 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:06:39.066 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:06:57.177 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableListFromAlias(SQLCompletionAnalyzer.java:977)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:235)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:16.862 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:16.866 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:16.869 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:17.399 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:21.454 - Can't parse numeric value [King Steven] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.454 - Can't parse numeric value [Kochhar Neena] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [De Haan Lex] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Russell John] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Partners Karen] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Hartstein Michael] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Greenberg Nancy] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Higgins Shelley] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Errazuriz Alberto] using formatter: Too many nonzero exponent digits.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Ozer Lisa] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Raphaely Den] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Cambrault Gerald] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Abel Ellen] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.455 - Can't parse numeric value [Zlotkey Eleni] using formatter: Character Z is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Vishney Clara] using formatter: Character V is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [King Janette] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Tucker Peter] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Baer Hermann] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Bloom Harrison] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Fox Tayler] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Greene Danielle] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Bernstein David] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Sully Patrick] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Hall Peter] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [Hunold Alexander] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.456 - Can't parse numeric value [McEwen Allan] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Faviet Daniel] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Hutton Alyssa] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Taylor Jonathon] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Livingston Jack] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Gietz William] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Fripp Adam] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Chen John] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Weiss Matthew] using formatter: Character W is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Smith Lindsey] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Olsen Christopher] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.457 - Can't parse numeric value [Kaufling Payam] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Urman Jose Manuel] using formatter: Character U is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Sciarra Ismael] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Doran Louise] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Cambrault Nanette] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Smith William] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Bates Elizabeth] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Marvins Mattea] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Tuvault Oliver] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Grant Kimberely] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Sewall Sarath] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Popp Luis] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.458 - Can't parse numeric value [Lee David] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Mavris Susan] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Vollman Shanta] using formatter: Character V is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Ande Sundar] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Johnson Charles] using formatter: Character J is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Banda Amit] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Kumar Sundita] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Fay Pat] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Ernst Bruce] using formatter: Not a digit.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Mourgos Kevin] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Pataballa Valli] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Austin David] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.459 - Can't parse numeric value [Whalen Jennifer] using formatter: Character W is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Sarchand Nandita] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Lorentz Diana] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Bull Alexis] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Bell Sarah] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Everett Britney] using formatter: Too many nonzero exponent digits.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Chung Kelly] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Dilly Jennifer] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Ladwig Renske] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Rajs Trenna] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Dellinger Julia] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Mallin Jason] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.460 - Can't parse numeric value [Bissot Laura] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Nayer Julia] using formatter: Character N is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [McCain Samuel] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Taylor Winston] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Stiles Stephen] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Khoo Alexander] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Walsh Alana] using formatter: Character W is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Fleaur Jean] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Davies Curtis] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Feeney Kevin] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.461 - Can't parse numeric value [Cabrio Anthony] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Baida Shelli] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Gates Timothy] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Rogers Michael] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Tobias Sigal] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Jones Vance] using formatter: Character J is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Geoni Girard] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Atkinson Mozhe] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Seo John] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Mikkilineni Irene] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Himuro Guy] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [Grant Douglas] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.462 - Can't parse numeric value [OConnell Donald] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Matos Randall] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Colmenares Karen] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Marlow James] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Perkins Randall] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Vargas Peter] using formatter: Character V is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Sullivan Martha] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Patel Joshua] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Gee Ki] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Landry James] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Philtanker Hazel] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Markle Steven] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:21.463 - Can't parse numeric value [Olson TJ] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:50.654 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:50.661 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:50.665 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:51.597 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:51.601 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:51.605 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:51.711 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:51.715 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:51.719 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:52.145 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:52.149 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:52.153 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:52.274 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:52.278 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:52.282 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:53.377 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:333)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:53.382 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.getTableFromAlias(SQLCompletionAnalyzer.java:1009)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:340)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:53.385 - Failed to extract table names from query
+java.lang.NullPointerException: Cannot invoke "java.lang.Comparable.compareTo(Object)" because "<parameter1>" is null
+	at java.base/java.util.TreeMap.compare(Unknown Source)
+	at java.base/java.util.TreeMap.addEntryToEmptyMap(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at java.base/java.util.TreeMap.put(Unknown Source)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getTableAndAliasFromSources(TableReferencesAnalyzerImpl.java:122)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.prepareTableReferences(TableReferencesAnalyzerImpl.java:56)
+	at org.jkiss.dbeaver.model.sql.analyzer.TableReferencesAnalyzerImpl.getFilteredTableReferences(TableReferencesAnalyzerImpl.java:72)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromQueryParts(SQLCompletionAnalyzer.java:723)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:378)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:132)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:116)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:348)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-01-03 20:07:56.807 - Can't parse numeric value [King Steven] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.807 - Can't parse numeric value [Kochhar Neena] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.807 - Can't parse numeric value [De Haan Lex] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.807 - Can't parse numeric value [Russell John] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Partners Karen] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Hartstein Michael] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Greenberg Nancy] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Higgins Shelley] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Errazuriz Alberto] using formatter: Too many nonzero exponent digits.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Ozer Lisa] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Raphaely Den] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Cambrault Gerald] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Abel Ellen] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Zlotkey Eleni] using formatter: Character Z is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.808 - Can't parse numeric value [Vishney Clara] using formatter: Character V is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [King Janette] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Tucker Peter] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Baer Hermann] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Bloom Harrison] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Fox Tayler] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Greene Danielle] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Bernstein David] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Sully Patrick] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Hall Peter] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Hunold Alexander] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [McEwen Allan] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Faviet Daniel] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.809 - Can't parse numeric value [Hutton Alyssa] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Taylor Jonathon] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Livingston Jack] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Gietz William] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Fripp Adam] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Chen John] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Weiss Matthew] using formatter: Character W is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Smith Lindsey] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Olsen Christopher] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Kaufling Payam] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Urman Jose Manuel] using formatter: Character U is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Sciarra Ismael] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Doran Louise] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.810 - Can't parse numeric value [Cambrault Nanette] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Smith William] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Bates Elizabeth] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Marvins Mattea] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Tuvault Oliver] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Grant Kimberely] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Sewall Sarath] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Popp Luis] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Lee David] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Mavris Susan] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Vollman Shanta] using formatter: Character V is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Ande Sundar] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Johnson Charles] using formatter: Character J is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Banda Amit] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.811 - Can't parse numeric value [Kumar Sundita] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Fay Pat] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Ernst Bruce] using formatter: Not a digit.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Mourgos Kevin] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Pataballa Valli] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Austin David] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Whalen Jennifer] using formatter: Character W is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Sarchand Nandita] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Lorentz Diana] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Bull Alexis] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Bell Sarah] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Everett Britney] using formatter: Too many nonzero exponent digits.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Chung Kelly] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.812 - Can't parse numeric value [Dilly Jennifer] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Ladwig Renske] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Rajs Trenna] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Dellinger Julia] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Mallin Jason] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Bissot Laura] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Nayer Julia] using formatter: Character N is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [McCain Samuel] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Taylor Winston] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Stiles Stephen] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Khoo Alexander] using formatter: Character K is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Walsh Alana] using formatter: Character W is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.813 - Can't parse numeric value [Fleaur Jean] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Davies Curtis] using formatter: Character D is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Feeney Kevin] using formatter: Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Cabrio Anthony] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Baida Shelli] using formatter: Character B is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Gates Timothy] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Rogers Michael] using formatter: Character R is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Tobias Sigal] using formatter: Character T is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Jones Vance] using formatter: Character J is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Geoni Girard] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Atkinson Mozhe] using formatter: Character A is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.814 - Can't parse numeric value [Seo John] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Mikkilineni Irene] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Himuro Guy] using formatter: Character H is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Grant Douglas] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [OConnell Donald] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Matos Randall] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Colmenares Karen] using formatter: Character C is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Marlow James] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Perkins Randall] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Vargas Peter] using formatter: Character V is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Sullivan Martha] using formatter: Character S is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Patel Joshua] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.815 - Can't parse numeric value [Gee Ki] using formatter: Character G is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.816 - Can't parse numeric value [Landry James] using formatter: Character L is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.816 - Can't parse numeric value [Philtanker Hazel] using formatter: Character P is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.816 - Can't parse numeric value [Markle Steven] using formatter: Character M is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:07:56.816 - Can't parse numeric value [Olson TJ] using formatter: Character O is neither a decimal digit number, decimal point, nor "e" notation exponential mark.
+2024-01-03 20:20:46.739 - Execution context closed (localhost, 2)
+2024-01-03 20:20:46.801 - Execution context closed (localhost, 3)
+2024-01-03 20:20:47.040 - DBeaver is stopping
+2024-01-03 20:20:47.043 - Stop instance server
+2024-01-03 20:20:48.044 - DBeaver shutdown completed
